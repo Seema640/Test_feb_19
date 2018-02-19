@@ -11,6 +11,7 @@ class Employee:
          print("First name={}".format(self.first_name))
          print("Last name={}".format(self.last_name))
          print("Salary={}".format(self.salary))
+         print("Email={}".format(self.email))
 
 emp=Employee("Seema","Tamang",100000)
 emp.gen_email()
